@@ -4,4 +4,4 @@ This repository contains some Latex templates for -
 2. Resume
 3. CV
 4. Biodata
-5. Confrence Paper
+5. Conference Paper
