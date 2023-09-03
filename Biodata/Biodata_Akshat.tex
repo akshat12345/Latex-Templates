@@ -1,0 +1,143 @@
+\documentclass[a4paper]{scrartcl} % Paper options using the scrartcl class
+
+\usepackage{scrlayer-scrpage} % Provides headers and footers configuration
+\usepackage{graphicx}
+\graphicspath{ {./images/} }
+\usepackage{titlesec} % Allows creating custom \section's
+\usepackage{marvosym} % Allows the use of symbols
+\usepackage{tabularx,colortbl} % Advanced table configurations
+\usepackage{microtype} % To enable letterspacing
+
+\titleformat{\section}{\large\scshape\raggedright}{}{0em}{}[\titlerule] % Section formatting
+
+\pagestyle{scrheadings} % Print the headers and footers on all pages
+
+
+\addtolength{\textheight}{3cm} % Adjust the text height - less whitespace at the bottom of the page
+
+\newcommand{\gray}{\rowcolor[gray]{.90}} % Custom highlighting for the work experience and education sections
+
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+	
+	\begin{center}	
+		%----------------------------------------------------------------------------------------
+		%	HEADER SECTION
+		%----------------------------------------------------------------------------------------
+		{\fontsize{36}{36}\textls[200]{BIO DATA}} \\% Your name at the top
+		
+		\vspace{1.5cm}
+		
+		\begin{figure}[htp]
+			\includegraphics[scale=0.15]{Me}
+		\end{figure}
+		
+		
+		
+		
+		
+		% Extra whitespace after the large name at the top
+		
+		%----------------------------------------------------------------------------------------
+		%	OBJECTIVE
+		%----------------------------------------------------------------------------------------
+		
+		\section{Personal Information}
+		
+		\begin{itemize}
+			\setlength\itemsep{0em}
+			
+			\item \noindent \textbf{Name - }Akshat Tiwari
+			\item \noindent \textbf{Mobile - }8806617845
+			\item \noindent\textbf{Email - }akshat1998tiwari@gmail.com
+			\item \noindent\textbf{Address - }16, Rameshwar Nagar, In front of Angels Planet School, Khandwa, M.P.
+			\item \noindent \textbf{Father's Name - }Rajesh Tiwari
+			\item \noindent \textbf{Gender - }Male
+			\item \noindent \textbf{Date of Birth - }26-09-1998
+			\item \noindent \textbf{Marital Status - }Unmarried
+			\item \noindent \textbf{Religion - }Hindu
+			\item \noindent \textbf{Languages Known - }Hindi, English \\
+		\end{itemize}
+		
+		
+		%----------------------------------------------------------------------------------------
+		
+		%	EDUCATION
+		%----------------------------------------------------------------------------------------
+		
+		\section{Education}
+		
+		\begin{tabularx}{0.97\linewidth}{>{\raggedleft\scshape}p{2cm}X}
+			\gray Period & \textbf{2022 - present}\\
+			\gray Degree & \textbf{M.Tech - Computer Science and Engineering}\\
+			\gray University & \textbf{National Institute of Technology} \hfill Surathkal, Karnataka\\
+			%& Extra information about degree
+		\end{tabularx}
+		
+		\vspace{12pt}
+		
+		\begin{tabularx}{0.97\linewidth}{>{\raggedleft\scshape}p{2cm}X}
+			\gray Period & \textbf{2016 - 2020}\\
+			\gray Degree & \textbf{B.E. - Computer Engg.}\\
+			\gray CGPA & \textbf{8.97}\\
+			\gray College & \textbf{Sinhgad Institute of Technology} \hfill Pune, Maharashtra\\
+			%& Extra information about degree
+		\end{tabularx}
+		
+		\vspace{12pt}
+		
+		\begin{tabularx}{0.97\linewidth}{>{\raggedleft\scshape}p{2cm}X}
+			\gray Period & \textbf{2015 - 2016}\\
+			\gray Degree & \textbf{HSC (CBSE)}\\
+			\gray Percentage & \textbf{74.60\%}\\
+			\gray School & \textbf{Bhandari Public School} \hfill Khandwa, M.P.\\
+			%& Extra information about degree
+		\end{tabularx}
+		
+		\vspace{12pt}
+		
+		\begin{tabularx}{0.97\linewidth}{>{\raggedleft\scshape}p{2cm}X}
+			\gray Period & \textbf{2013 - 2014}\\
+			\gray Degree & \textbf{SSC (CBSE)}\\
+			\gray CGPA & \textbf{9.0}\\
+			\gray School & \textbf{Bhandari Public School} \hfill Khandwa, M.P.\\
+			%& Extra information about degree
+		\end{tabularx}
+		
+		%----------------------------------------------------------------------------------------
+		
+		%	WORK EXPERIENCE
+		%----------------------------------------------------------------------------------------
+		
+		\section{Work Experience}
+		
+		\vspace{12pt}
+		
+		\begin{tabularx}{0.97\linewidth}{>{\raggedleft\scshape}p{2cm}X}
+			\gray Period & \textbf{Nov 2020 --- June 2022 }\\
+			\gray Employer & \textbf{Cognizant Technology Solutions} \hfill Pune, Maharashtra (WFH)\\
+			\gray Job Title & \textbf{Programmer Analyst}\\
+			& I have working experience of 1.7 year as a Full Stack Developer. I have 
+			worked on 2 projects during this time both based on chatbot.
+		\end{tabularx}
+		
+		%----------------------------------------------------------------------------------------
+		\section{Hobbies and Interest}
+		
+		\begin{itemize}
+			\setlength\itemsep{0em}
+			
+			\item \noindent \textbf{Gaming}
+			\item \noindent \textbf{Watching and Playing Football}
+			\item \noindent\textbf{Reading}
+			\item \noindent\textbf{Cooking} \\
+		\end{itemize}
+		
+		
+		%----------------------------------------------------------------------------------------
+		
+	\end{center}
+	
+\end{document}
